@@ -1387,7 +1387,7 @@ a:focus {
     height: 30px;
     line-height: normal;
     position: fixed;
-    right: 3%;
+    left: 3%;
     text-align: center;
     width: 30px;
     z-index: 999;

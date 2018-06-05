@@ -1,0 +1,18 @@
+#callNowItem {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    width: 106px;
+    height: 106px;
+    background-image: url("ico.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block
+}
+
+@media screen and (min-width: 960px) {
+    #callNowItem {
+        display: none;
+    }
+}

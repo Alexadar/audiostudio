@@ -383,8 +383,8 @@ $(document).ready(function ($) {
 $(window).load(function () {
     // Preloder
     // --------------------------------------------------
-    $('#loading').delay(1000).fadeOut(200);
-
+    $('#loading').delay(0).fadeOut(200);
+	addCallNowButton();
 });
 
 //$(window).trigger('resize').trigger('scroll');
