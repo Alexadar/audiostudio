@@ -1,0 +1,12 @@
+{
+  "name": "audiostudio",
+  "version": "1.0.0",
+  "author": "Olexander",
+  "description": "audiostudio",
+  "private": true,
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}
