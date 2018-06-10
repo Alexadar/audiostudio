@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 
 	grunt.initConfig({
 		clean: {
-			folder: ['docs/'],
+			folder: ['docs/']
 		},
 		copy : {
 			main: {
@@ -22,6 +22,11 @@ module.exports = function (grunt) {
 					expand: true,
 					cwd   : 'dist/',
 					src   : 'index.html',
+					dest  : 'docs/'
+				},{
+					expand: true,
+					cwd   : 'dist/',
+					src   : 'CNAME',
 					dest  : 'docs/'
 				}]
 			}
