@@ -875,7 +875,7 @@ a:focus {
     padding: 10px;
     text-transform: uppercase;
     vertical-align: middle;
-    width: 355px;
+    /*width: 355px;*/
 }
 .caption-text .extra-bold-font .border{
     border: 2px solid #ffffff;
@@ -1847,7 +1847,7 @@ a:focus {
 }
 
 .footer-bg{
-    background-image: url("../img/background/footer-bg.jpg");
+    background-image: url("../photos/studio/st2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
